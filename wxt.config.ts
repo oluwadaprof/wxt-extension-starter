@@ -1,9 +1,23 @@
 import { defineConfig } from "wxt";
 
+// export default defineConfig({
+//   manifest: {
+//     action: {},
+//     page_action: {},
+//   },
+// });
+
 export default defineConfig({
-  manifest: {
-    action: {},
-    page_action: {},
+  manifest: ({ browser, manifestVersion, mode, command }) => {
+    return {
+      // ...
+      action: {},
+      browser_action: {},
+      page_action: {
+        browser_style: true
+      },
+      
+    };
   },
 });
 
