@@ -22,6 +22,11 @@ const Modal = () => {
       <button onClick={() => setVisible(false)}>Close</button>
       <h1 style={{fontSize: '20px', color: 'black'}}>WXT extension side panel</h1>
       <p>This is a custom popup</p>
+      <p>This is a custom popup</p>
+      <p>This is a custom popup</p>
+      <p>This is a custom popup</p>
+      <p>This is a custom popup</p>
+      <p>This is a custom popup</p>
     </div>
   );
 };
